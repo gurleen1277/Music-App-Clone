@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Login - HiTunes</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./assets/logo.svg" alt="HiTunes Logo" />
+    </nav>
+
+    <div class="login-container">
+      <p>Log in to HiTunes</p>
+      <form action="home.html">
+        <label for="email">Email or username </label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <button id="login" type="submit">Log In</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
